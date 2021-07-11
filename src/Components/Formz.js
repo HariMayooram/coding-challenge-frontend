@@ -21,6 +21,7 @@ const Formz = (props) => {
     body: "",
     userId: "",
   });
+  
   const [formError, setFormError] = useState("");
   const[title,setTitle]= useState("");
    const inputBlurHandler= (e) => {
